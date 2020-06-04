@@ -1,0 +1,7 @@
+version: '3.7'
+
+services:
+  srv:
+    environment:
+      PUBLIC_HOST_ADDR: SOME_IP
+      ROOT_PASS: STRONG_ROOT_PASS

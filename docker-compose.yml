@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  srv:
+    build:
+      context: .
+    restart: always
+    network_mode: host
+    environment:
+      PROXY_PORT: 1194
+      PUBLIC_HOST_PORT: 34051
